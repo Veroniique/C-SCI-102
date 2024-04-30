@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seattle Phone Tech</title>
+
+    <style>
+        #wrapper {
+            width: 100%;
+            background-color: #bcbcbc;
+            margin-left: auto;
+            margin-right: auto;
+            padding-top: 20px;
+        }
+
+            body {
+                background-color: white;
+            }
+
+                h1 {
+                    font-family: 'Lucida Sans';
+                    text-align: center;
+                    font-size: 4vw;
+                    letter-spacing: 5px;
+                }
+
+                    .navigation {
+                        display: inline-block;
+                        padding-bottom: 20px;
+                    }
+
+        <!--Navigation Bar-->nav ul {
+            list-style: none;
+            text-align: center;
+            padding: 20px;
+        }
+
+                nav ul li {
+                    display: inline;
+                    padding: 0 20px;
+                    letter-spacing: 5px;
+                }
+
+                    nav ul li a {
+                        text-decoration: none;
+                        color: black;
+                    }
+
+                        nav ul li a:hover {
+                            color: white;
+                        }
+
+        <!--Responsive NavBar-->ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+
+            li {
+                float: left;
+            }
+
+                    li a {
+                        display: block;
+                        text-align: center;
+                        padding: 20px 15px;
+                    }
+
+        li a:hover {
+            background-color: black;
+        }
+
+        footer {
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+            bottom: 0;
+            background-color: black;
+            text-align: center;
+            color: white;
+        }
+
+        h2 {
+            text-align: center;
+            letter-spacing: 2px;
+            color: black;
+        }
+
+            h2 span {
+                background-color: lightgrey;
+                padding: 6px;
+                border: 3px solid black;
+            }
+
+                p {
+                    text-align: center;
+                }
+                            form {
+                                background-color: grey;
+                                padding: 25px;
+                                width: 25%;
+                                border-radius: 25px;
+                                font-weight: bold;
+                                text-align: center;
+                                margin: auto;
+                                border: 3px solid black;
+                                text-transform: uppercase;
+                                letter-spacing: 2px;
+                            }
+
+                                    #submit {
+                                        background-color: rgb(47, 179, 212);
+                                        color: white;
+                                        cursor: pointer;
+                                        height: 60px;
+                                        font-weight: bold;
+                                        border-radius: 25px;
+                                        margin-top: 20px;
+                                        padding: 15px;
+                                    }
+
+                                      #submit:hover {
+                                          background-color: lightgreen;
+                                      }  
+
+                                            input {
+                                                width: 85%;
+                                                height: 20px;
+                                                padding: 7px;
+                                                margin: auto;
+                                            }
+
+    label, input {
+        display: block;
+    }        
+        
+        label {
+            margin-bottom: 20px;
+        }
+
+            .content {
+                padding: 20px;
+                letter-spacing: 2px;
+                font-family: cursive;
+            }
+
+    </style>
+</head>
+
+<body>
+    <div id="wrapper">
+        <header>
+            <h1>SEATTLE PHONE TECH</h1>
+            <div class="navigation">
+                <nav>
+                    <ul>
+                        <li><a href="https://chelan.highline.edu/~Veronique/week10/index.html">HOME</a></li>
+                        <li><a href="https://chelan.highline.edu/~Veronique/week10/about.html">ABOUT</a></li>
+                        <li><a href="https://chelan.highline.edu/~Veronique/week10/services.html">SERVICES</a></li>
+                        <li><a href="https://chelan.highline.edu/~Veronique/week10/4gvs5g.html">4G VS 5G</a></li>
+                        <li><a href="https://chelan.highline.edu/~Veronique/week10/videos.html">VIDEOS</a></li>
+                        <li><a href="https://chelan.highline.edu/~Veronique/week10/location.html">LOCATION</a></li>
+                        <li><a href="https://chelan.highline.edu/~Veronique/week10/contact.html">CONTACT</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <section>
+            <!--Form-->
+                <h2 class="heading"><span>Contact Us</span></h2>
+                <p class="content">Send us an email at sptech@gmail.com or call us today at (206) 878-3710 if you have any questions or concerns. 
+                    Below you can fill out your details to become a member of Seattle Phone Tech where you will be able to stay up to date with the latest news about phone promotions and everything related to phones.</p>
+                <br />
+            <!--Form start-->
+            <form action="https://chelan.highline.edu/~Veronique/week6/contact.php">
+                <h2><span>BECOME A MEMBER!</span></h2>
+                    <br />
+                <label for="name">Name</label>
+                    <input type="text" id="name">
+                <label for="email">Email</label>
+                    <input type="text" id="email">
+                <label for="phone">Phone</label>
+                    <input type="text" id="phone">
+                <label for="address">Address</label>
+                    <input type="text" id="address">
+                <label for="zipcode">Zip code</label>
+                    <input type="text" id="zip">
+                <label for="subscribe">Subscribe to us</label>
+                <label for="question">Yes</label>
+                    <input type="checkbox" id="Yes" name="question" value="Yes">
+                <label for="question">No</label>
+                    <input type="checkbox" id="No" name="question" value="No">
+            
+                <!--Form submission button-->
+                <input type="submit" value="S U B M I T" id="submit">
+            </form>
+            <br />
+        
+        
+        </section>
+    </div>
+    <footer>
+        <!--Facebook Widget-->
+        <iframe
+            src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fhighlinecollege%2F&width=120&layout=button&action=like&size=small&share=true&height=65&appId"
+            width="120" height="65" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true"
+            allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+        <p>Coded by Veronique Fick</p>
+        <p>Student at Highline College</p>
+        <!--Twitter Widget-->
+        <a href="https://twitter.com/HighlineTBirds?ref_src=twsrc%5Etfw" class="twitter-follow-button"
+            data-show-count="false">Follow @HighlineTBirds</a>
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </footer>
+</body>
+
+</html>
